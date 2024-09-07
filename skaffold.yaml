@@ -26,10 +26,6 @@ build:
     context: src/paymentservice
     docker:
       dockerfile: Dockerfile
-  - image: frontend
-    context: src/frontend
-  - image: adservice
-    context: src/adservice
   tagPolicy:
     gitCommit: {}
   local:
