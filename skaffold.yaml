@@ -27,7 +27,7 @@ build:
     docker:
       dockerfile: Dockerfile
   tagPolicy:
-    gitCommit: {}
+    sha256: {}
   local:
     useBuildkit: false
 manifests:
